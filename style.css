@@ -1,0 +1,72 @@
+/* style.css - Styling for index.php
+    Class: CSC 235 Server Side Development
+    Week 1: prjWebForm
+    Student Name: Brittany Schaefer
+    Written: 3/16.22
+    Revised: 
+*/
+/*-----------------------
+    Whole Page styling
+-------------------------*/
+body{
+    background-color: rgb(0, 0, 109);
+    color: white;
+}
+/*-------------------
+    Header Styling
+---------------------*/
+header{
+    color:orange;
+    text-align: center;
+    border-bottom: solid 4px white;
+}
+h1{
+    font-size: 5em;
+}
+/*---------------
+    Body Styling
+-----------------*/
+/*Table Styling*/
+table{
+    margin-top: 2em;
+    margin: 1em;
+    border: solid 2px white;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    padding: .5em;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgb(218, 141, 0);
+}
+td{
+    padding: .2em;
+}
+/*Add player Form Styling*/
+#fieldsetAdd{
+    margin: 1em;
+}
+/*Delete player Form Styling*/
+#fieldsetDelete{
+    margin: 1em;
+    
+}
+/*Left side styling*/
+#leftContainer{
+    margin-top: 1em;
+    width: 50%;
+    float: left;
+}
+/*Right side styling*/
+#rightContainer{
+    margin-top: 1em;
+    float: right;
+    width: 50%;
+}
+/*Image styling*/
+img{
+    margin-top: 4em;
+    margin-left: 28%;
+    border: solid 3px white;
+}
